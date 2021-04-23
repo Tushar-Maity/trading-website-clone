@@ -1,0 +1,123 @@
+.belowHeader {
+    padding: 0px 30px;
+    display: block;
+
+    @media screen and (max-width: $bp-small2) {
+        padding: 0 10px;
+    }
+
+    .numbers {
+        padding: 25px 0px;
+        display: flex ;
+        align-items: center ;
+        justify-content: space-around;
+        box-sizing: border-box;
+
+        .number {
+            display: block;
+            // color: #fff;
+
+            .topHeader {
+                display: block;
+                box-sizing: border-box;
+                text-align: center !important;
+                // text-align: center !important;
+
+                h2 {
+                    font-weight: 400;
+                    font-size: 40px;
+                    color: $primary-color;
+
+                    @media screen and (max-width: $bp-medium1) {
+                        font-size: 20px;
+                    }
+
+                    @media screen and (max-width: $bp-small2) {
+                        font-size: 18px;
+                    }
+                }
+            }
+            .subHeader {
+                display: block;
+                box-sizing: border-box;
+                text-align: center !important;
+
+                h3 {
+                    // color: #69686a;
+                    font-weight: 300;
+                    opacity: .45;
+                    font-size: 20px;
+
+                    @media screen and (max-width: $bp-medium1) {
+                        font-size: 13px;
+                    }
+
+                    @media screen and (max-width: $bp-small2) {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+        .main {
+            .upperHeading {
+                color: #69686a;
+                box-sizing: border-box;
+                text-align: center !important;
+
+                h3 {
+                    font-weight: 300;
+                    font-size: 28px;
+                    letter-spacing: .75px;
+
+                    @media screen and (max-width: $bp-medium1) {
+                        font-size: 16px;
+                    }
+                }
+            }
+            .middle {
+                padding-bottom: 10px;
+                display: block;
+                box-sizing: border-box;
+                text-align: center !important;
+
+                h2 {
+                    font-weight: 400;
+                    font-size: 80px;
+
+                    @media screen and (max-width: $bp-large3) {
+                        font-weight: 400;
+                        font-size: 60px;
+                    }
+
+                    @media screen and (max-width: $bp-medium1) {
+                        font-size: 30px;
+                    }
+
+                    @media screen and (max-width: $bp-small2) {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .lowerHeading {
+                display: block;
+                box-sizing: border-box;
+                text-align: center !important;
+                color: #817e84;
+
+                h3 {
+                    font-weight: 300;
+                    font-size: 16px;
+                    letter-spacing: .75px;
+
+                    @media screen and (max-width: $bp-medium1) {
+                        font-size: 14px;
+                    }
+
+                    @media screen and (max-width: $bp-small2) {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
